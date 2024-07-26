@@ -1,7 +1,7 @@
 const getTotalIsles = require('./program1');
 const assert = require("assert");
 
-// No need to require describe; it's provided by Mocha globally
+
 
 describe("Test cases for finding total number of Islands", function () {
     it(`Returns 1 for [["L","L","L","L","W"],["L","L","W","L","W"],["L","L","W","W","W"],["W","W","W","W","W"]]`, function () {
